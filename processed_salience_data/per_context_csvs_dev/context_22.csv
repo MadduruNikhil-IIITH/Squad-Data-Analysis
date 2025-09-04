@@ -1,0 +1,7 @@
+contextID,sentence,sentenceNumInContext,answer,answerSpanInSentence,answerSpanInContext,PosID,NERID
+22,"Jacksonville is the largest city by population in the U.S. state of Florida, and the largest city by area in the contiguous United States.",1,Jacksonville,0-12,0-12,,
+22,"Jacksonville is the principal city in the Jacksonville metropolitan area, with a population of 1,345,596 in 2010.",4,"1,345,596",95-104,608-617,,
+22,"Consolidation gave Jacksonville its great size and placed most of its metropolitan population within the city limits; with an estimated population of 853,382 in 2014, it is the most populous city proper in Florida and the Southeast, and the 12th most populous in the United States.",3,12th,241-245,472-476,,
+22,"It is the county seat of Duval County, with which the city government consolidated in 1968.",2,Duval,25-30,164-169,,
+22,"It is the county seat of Duval County, with which the city government consolidated in 1968.",2,Duval County,25-37,164-176,,
+22,"It is the county seat of Duval County, with which the city government consolidated in 1968.",2,1968,86-90,225-229,,

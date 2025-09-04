@@ -1,0 +1,11 @@
+contextID,sentence,sentenceNumInContext,answer,answerSpanInSentence,answerSpanInContext,PosID,NERID
+7,"Non-combustion heat sources such as solar power, nuclear power or geothermal energy may be used.",2,solar,36-41,149-154,,
+7,"Non-combustion heat sources such as solar power, nuclear power or geothermal energy may be used.",2,solar power,36-47,149-160,,
+7,"Non-combustion heat sources such as solar power, nuclear power or geothermal energy may be used.",2,"solar power, nuclear power or geothermal energy",36-83,149-196,,
+7,The ideal thermodynamic cycle used to analyze this process is called the Rankine cycle.,3,Rankine,73-80,283-290,,
+7,The ideal thermodynamic cycle used to analyze this process is called the Rankine cycle.,3,Rankine cycle,73-86,283-296,,
+7,"In the cycle, water is heated and transforms into steam within a boiler operating at a high pressure.",4,steam,50-55,348-353,,
+7,"In the cycle, water is heated and transforms into steam within a boiler operating at a high pressure.",4,high,87-91,385-389,,
+7,"In the cycle, water is heated and transforms into steam within a boiler operating at a high pressure.",4,high pressure,87-100,385-398,,
+7,"Steam engines are external combustion engines, where the working fluid is separate from the combustion products.",1,external combustion,18-37,18-37,,
+7,"Steam engines are external combustion engines, where the working fluid is separate from the combustion products.",1,external combustion engines,18-45,18-45,,

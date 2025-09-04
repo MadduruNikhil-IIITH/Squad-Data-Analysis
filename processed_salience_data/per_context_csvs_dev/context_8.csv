@@ -1,0 +1,24 @@
+contextID,sentence,sentenceNumInContext,answer,answerSpanInSentence,answerSpanInContext,PosID,NERID
+8,Oxygen is a chemical element with symbol O and atomic number 8.,1,8,61-62,61-62,,
+8,"By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium.",3,helium,87-93,331-337,,
+8,Diatomic oxygen gas constitutes 20.8% of the Earth's atmosphere.,5,Diatomic oxygen,0-15,485-500,,
+8,Diatomic oxygen gas constitutes 20.8% of the Earth's atmosphere.,5,Diatomic oxygen gas,0-19,485-504,,
+8,"At standard temperature and pressure, two atoms of the element bind to form dioxygen, a colorless and odorless diatomic gas with the formula O
+2.",4,two atoms,38-47,377-386,,
+8,"At standard temperature and pressure, two atoms of the element bind to form dioxygen, a colorless and odorless diatomic gas with the formula O
+2.",4,two,38-41,377-380,,
+8,"Oxygen is the most abundant element by mass in the Earth's crust as part of oxide compounds such as silicon dioxide, making up almost half of the crust's mass.",7,almost half,127-138,788-799,,
+8,"Oxygen is the most abundant element by mass in the Earth's crust as part of oxide compounds such as silicon dioxide, making up almost half of the crust's mass.",7,half,134-138,795-799,,
+8,It is a member of the chalcogen group on the periodic table and is a highly reactive nonmetal and oxidizing agent that readily forms compounds (notably oxides) with most elements.,2,chalcogen,22-31,86-95,,
+8,It is a member of the chalcogen group on the periodic table and is a highly reactive nonmetal and oxidizing agent that readily forms compounds (notably oxides) with most elements.,2,the chalcogen group,18-37,82-101,,
+8,It is a member of the chalcogen group on the periodic table and is a highly reactive nonmetal and oxidizing agent that readily forms compounds (notably oxides) with most elements.,2,oxides,152-158,216-222,,
+8,"Oxygen is the most abundant element by mass in the Earth's crust as part of oxide compounds such as silicon dioxide, making up almost half of the crust's mass.",7,oxide compounds,76-91,737-752,,
+8,"Oxygen is the most abundant element by mass in the Earth's crust as part of oxide compounds such as silicon dioxide, making up almost half of the crust's mass.",7,oxide,76-81,737-742,,
+8,"By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium.",3,third,23-28,267-272,,
+8,"By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium.",3,third-most,23-33,267-277,,
+8,"At standard temperature and pressure, two atoms of the element bind to form dioxygen, a colorless and odorless diatomic gas with the formula O
+2.",4,dioxygen,76-84,415-423,,
+8,"At standard temperature and pressure, two atoms of the element bind to form dioxygen, a colorless and odorless diatomic gas with the formula O
+2.",4,diatomic gas,111-123,450-462,,
+8,Oxygen is a chemical element with symbol O and atomic number 8.,1,Oxygen,0-6,0-6,,
+8,"By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium.",3,oxygen,9-15,253-259,,

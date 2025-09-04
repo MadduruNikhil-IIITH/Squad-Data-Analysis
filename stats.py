@@ -303,4 +303,7 @@ def main(filename):
         sys.exit(1)
 
 if __name__ == "__main__":
-    main("data.json")
+    if len(sys.argv) < 2:
+        print("Usage: python squad_sentence_annotation_dedup.py <json_filename>")
+        sys.exit(1)
+    main(sys.argv[1])

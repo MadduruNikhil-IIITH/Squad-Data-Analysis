@@ -1,0 +1,13 @@
+contextID,sentence,sentenceNumInContext,answer,answerSpanInSentence,answerSpanInContext,PosID,NERID
+19,Construction is the process of constructing a building or infrastructure.,1,Construction,0-12,0-12,,
+19,"Construction differs from manufacturing in that manufacturing typically involves mass production of similar items without a designated purchaser, while construction typically takes place on location for a known client.",2,manufacturing,48-61,122-135,,
+19,"Construction differs from manufacturing in that manufacturing typically involves mass production of similar items without a designated purchaser, while construction typically takes place on location for a known client.",2,manufacturing,26-39,100-113,,
+19,Construction as an industry comprises six to nine percent of the gross domestic product of developed countries.,3,six to nine percent,38-57,331-350,,
+19,"Construction starts with planning,[citation needed] design, and financing and continues until the project is built and ready for use.",4,"planning,[citation needed] design, and financing",25-73,430-478,,
+19,"Construction starts with planning,[citation needed] design, and financing and continues until the project is built and ready for use.",4,"planning,[citation needed] design, and financing and continues until the project is built",25-114,430-519,,
+19,"Construction differs from manufacturing in that manufacturing typically involves mass production of similar items without a designated purchaser, while construction typically takes place on location for a known client.",2,a known client,203-217,277-291,,
+19,"Construction differs from manufacturing in that manufacturing typically involves mass production of similar items without a designated purchaser, while construction typically takes place on location for a known client.",2,client,211-217,285-291,,
+19,"Construction differs from manufacturing in that manufacturing typically involves mass production of similar items without a designated purchaser, while construction typically takes place on location for a known client.",2,known client,205-217,279-291,,
+19,Construction as an industry comprises six to nine percent of the gross domestic product of developed countries.,3,the gross domestic product of developed countries,61-110,354-403,,
+19,"Construction differs from manufacturing in that manufacturing typically involves mass production of similar items without a designated purchaser, while construction typically takes place on location for a known client.",2,on location,187-198,261-272,,
+19,"Construction starts with planning,[citation needed] design, and financing and continues until the project is built and ready for use.",4,until the project is built and ready for use,88-132,493-537,,

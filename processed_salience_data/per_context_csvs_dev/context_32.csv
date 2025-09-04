@@ -1,0 +1,11 @@
+contextID,sentence,sentenceNumInContext,answer,answerSpanInSentence,answerSpanInContext,PosID,NERID
+32,"Its name originated from the Latin word ""imperium"", which means to rule over large territories.",2,Latin,29-34,74-79,,
+32,"Imperialism is ""a policy of extending a country's power and influence through colonization, use of military force, or other means"".",3,military force,99-113,240-254,,
+32,"Imperialism is ""a policy of extending a country's power and influence through colonization, use of military force, or other means"".",3,"colonization, use of military force, or other means",78-129,219-270,,
+32,"Imperialism is ""a policy of extending a country's power and influence through colonization, use of military force, or other means"".",3,"colonization, use of military force, or other",78-123,219-264,,
+32,"Imperialism is ""a policy of extending a country's power and influence through colonization, use of military force, or other means"".",3,colonization,78-90,219-231,,
+32,The term imperialism has been applied to Western (and Japanese) political and economic dominance especially in Asia and Africa in the 19th and 20th centuries.,6,Japan,54-59,450-455,,
+32,The term imperialism has been applied to Western (and Japanese) political and economic dominance especially in Asia and Africa in the 19th and 20th centuries.,6,Japanese,54-62,450-458,,
+32,It has also allowed for the rapid spread of technologies and ideas.,5,technologies and ideas,44-66,372-394,,
+32,It has also allowed for the rapid spread of technologies and ideas.,5,technologies and ideas.,44-67,372-395,,
+32,The term imperialism has been applied to Western (and Japanese) political and economic dominance especially in Asia and Africa in the 19th and 20th centuries.,6,20th,143-147,539-543,,

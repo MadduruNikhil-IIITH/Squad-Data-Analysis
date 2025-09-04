@@ -123,6 +123,7 @@ def annotate_squad_sentences(json_data, filename):
             # Collect annotations for this context with deduplication
             annotations = []
             seen_spans = defaultdict(set)  # sentence_num -> set of (answer, span_in_context)
+            sentence_spans = defaultdict(list)  # sentence_num -> list of spans for salience check
             questions = paragraph['qas']
             for qa in questions:
                 print(qa)
@@ -151,6 +152,7 @@ def annotate_squad_sentences(json_data, filename):
                         span_key = (text, f"{start}-{end}")
                         if span_key not in seen_spans[sent_num]:
                             seen_spans[sent_num].add(span_key)
+                            sentence_spans[sent_num].append((text, start, end))
                             # Span in sentence
                             span_in_sent_start = start - sent_start
                             span_in_sent_end = end - sent_start
@@ -164,6 +166,7 @@ def annotate_squad_sentences(json_data, filename):
                                 'contextID': context_id,
                                 'sentence': sent_text,
                                 'sentenceNumInContext': sent_num,
+                                'is_salient': True,
                                 'answer': text,
                                 'answerSpanInSentence': f"{span_in_sent_start}-{span_in_sent_end}",
                                 'answerSpanInContext': f"{start}-{end}",
@@ -174,9 +177,26 @@ def annotate_squad_sentences(json_data, filename):
                             annotations.append(ann)
                             all_annotated.append(ann)
 
+            # Add non-salient sentences if requested
+            for idx, (s_start, s_end, s_text) in enumerate(boundaries, 1):
+                if idx not in sentence_spans:
+                    ann = {
+                        'contextID': context_id,
+                        'sentence': s_text,
+                        'sentenceNumInContext': idx,
+                        'is_salient': False,
+                        'answer': '',
+                        'answerSpanInSentence': '',
+                        'answerSpanInContext': '',
+                        'PosID': '',
+                        'NERID': ''
+                    }
+                annotations.append(ann)
+                all_annotated.append(ann)
+
             # Write per context CSV
             with open(f'{output_folder}/context_{context_id}.csv', 'w', newline='', encoding='utf-8') as csvfile:
-                writer = csv.DictWriter(csvfile, fieldnames=['contextID', 'sentence', 'sentenceNumInContext', 'answer', 'answerSpanInSentence', 'answerSpanInContext', 'PosID', 'NERID'])
+                writer = csv.DictWriter(csvfile, fieldnames=['contextID', 'sentence', 'sentenceNumInContext', 'is_salient', 'answer', 'answerSpanInSentence', 'answerSpanInContext', 'PosID', 'NERID'])
                 writer.writeheader()
                 writer.writerows(annotations)
 
@@ -189,7 +209,7 @@ def annotate_squad_sentences(json_data, filename):
 
     # Output across contexts CSV
     with open(f'processed_salience_data/all_annotated_sentences_{base_filename}.csv', 'w', newline='', encoding='utf-8') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=['contextID', 'sentence', 'sentenceNumInContext', 'answer', 'answerSpanInSentence', 'answerSpanInContext', 'PosID', 'NERID'])
+        writer = csv.DictWriter(csvfile, fieldnames=['contextID', 'sentence', 'sentenceNumInContext', 'is_salient', 'answer', 'answerSpanInSentence', 'answerSpanInContext', 'PosID', 'NERID'])
         writer.writeheader()
         writer.writerows(all_annotated)
 
